@@ -8,8 +8,22 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="apps.js"></script>
   </head>
+
   <body>
-    <h1>Avengers Character Search</h1>
-    <button id="search-Btn">Search</button>
+    <header>
+      <h1>AVENGERS CHARACTER SEARCH</h1>
+    </header>
+
+    <div id="search-Div">
+      <input id="search-Filter" type="text" pattern="^[a-zA-z_ ]+$" placeholder="Example: Frozone"/>
+      <button id="search-Btn">Search</button>
+    </div>
+
+    <div id="results-Div">
+      <hr>
+      <div id="result"></div>
+    </div>
   </body>
+
+
 </html>
